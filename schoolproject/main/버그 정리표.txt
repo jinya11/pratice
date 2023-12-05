@@ -1,0 +1,18 @@
+1. trust 3에서 Qprogressbar 오류 있음 --> 해결(대신, 증가폭 감소 기능을 삭제)
+2. main에 있는 project로 실행할 시 파일 읽기 안되는 오류 --> 파일을 다 main으로 옮겨서 해결
+3. music 파일에 있는 music_project의 GUI가 표시 안되는 오류 --> 해결
+4. 정답을 맞추고 돌아올때 name 상속을 못 받는 문제 --> nameInputWindow 삭제
+5. pytube 연령 제한 문제: pytube 파일 안에 있는 __main__py를 pytube 라이브러리에 적용 <-- github에서 가져온 라이브러리 변경.
+link는 credit에
+
+6. 화면 전환 문제: 처음에는 잘됨. 근데 문제 생김. --> 해결 완료 Qtimer 관련 문제였다.
+7. 다른 노래로 바꿀시 화면 정지 문제 --> 재생 버튼을 여러번 누른 후 다음 노래 버튼 누르면 문제가 안 생김.
+--> 라이브러리 쪽 문제. 첫번 실행을 두번 실행으로 바꾸면 임시 해결
+
+8. 예시:[('Title', 'MV', 'IU', '아이유', '_ Blueming', '블루밍'),
+('Anne', 'Marie', '2002', 'Lyrics/Vietsub'),
+('Payphone', 'Maroon 5, Ed Sheeran, Charlie Puth', 'Lyrics')]
+파일에 있는 내용을 튜플 형식으로 불러오고 있다.
+현재 틀고 노래와 상관없이 파일안에 들어가 있는 노래 제목을 적기만 해도 정답 처리
+
+9. 복붙 실수로 chap1 관련 코드가 모조리 없어졌었다, 해결 완료
